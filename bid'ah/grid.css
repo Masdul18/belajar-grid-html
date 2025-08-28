@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-areas: "jodol piral" "jodol pp" "hoax cibirangit";
+    grid-template-columns: 1fr 2fr );
+}
+
+.header {
+    grid-area: jodol;
+    background-color: coral;
+}
+
+.profile {
+    grid-area: pp;
+
+}
+
+.sidebar {
+    grid-area: piral;
+}
+
+.main {
+    grid-area: hoax;
+}
+
+.comment {
+    grid-area: cibiran;
+}
+
+.footer {
+    grid-area: sumber;
+}
+
