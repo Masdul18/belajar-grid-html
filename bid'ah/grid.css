@@ -1,7 +1,7 @@
 .container {
     display: grid;
-    grid-template-areas: "jodol piral" "jodol pp" "hoax cibirangit";
-    grid-template-columns: 1fr 2fr );
+    grid-template-columns: 1fr 2fr ;
+    grid-template-areas: "jodol jodol" "hoax cibiran" "pp cibiran" "piral cibiran" "sumber sumber";
 }
 
 .header {
@@ -11,22 +11,26 @@
 
 .profile {
     grid-area: pp;
-
+    background-color: lime;
 }
 
 .sidebar {
     grid-area: piral;
+    background-color: magenta;
 }
 
 .main {
     grid-area: hoax;
+    background-color: lemonchiffon;
 }
 
 .comment {
     grid-area: cibiran;
+    background-color: lightskyblue;
 }
 
 .footer {
     grid-area: sumber;
+    background-color: lightcyan;
 }
 
